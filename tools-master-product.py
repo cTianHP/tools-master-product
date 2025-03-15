@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import openpyxl
 
 def transform_data(df, branch_info):
     fixed_columns = ["NO", "Subdept", "Katagori", "Sub Katagori", "PLU", "Barcode", "Descp", "Aktif", "Merk", "Divisi"]
